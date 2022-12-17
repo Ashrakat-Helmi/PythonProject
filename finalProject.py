@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 pageNum=1
 while True:
     if(pageNum >75):
-        break;
+        break
     else:
         urlConnect= requests.get(f'https://www.flexjobs.com/search?location=&page={pageNum}&search=Web+Development')
 
